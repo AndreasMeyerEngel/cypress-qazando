@@ -16,11 +16,11 @@ jobs:
     # passo a passo para rodar os testes
     steps:
 
-      - name: Instalar dependências
-        uses: npm install
-
       - name: Checkout/Clone do Projeto 
         uses: actions/checkout@v4
+
+      - name: Instalar dependências
+        uses: npm install
 
       - name: Run Tests
         uses: cypress-io/github-action@v6
