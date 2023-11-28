@@ -22,7 +22,6 @@ jobs:
       - name: Instalar dependências
         run: npm install
       
-
       - name: Run Tests
         uses: cypress-io/github-action@v6
         with:
