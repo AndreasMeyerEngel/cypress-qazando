@@ -1,5 +1,5 @@
 # nome da pipeline
-name: Run Basic Tests 
+name: Run Basic Tests - Scheduler
 
 # em que momento será executada
 on:
