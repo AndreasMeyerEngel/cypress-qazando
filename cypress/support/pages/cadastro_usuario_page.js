@@ -22,7 +22,7 @@ export default {
             .type(email) 
     },
 
-    preencheSenha(password) {
+    preencheSenha(passworde) {
         cy.get('#password')
             .type(password)
     },
