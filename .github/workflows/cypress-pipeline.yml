@@ -17,7 +17,7 @@ jobs:
     steps:
 
       - name: Instalar dependências
-        uses: npm install
+        run: npm install
 
       - name: Checkout/Clone do Projeto 
         uses: actions/checkout@v4
