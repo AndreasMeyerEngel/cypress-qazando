@@ -19,7 +19,7 @@ jobs:
       - name: Checkout/Clone do Projeto 
         uses: actions/checkout@v4
 
-      - name: Instalar dependências do projeto
+      - name: Instalar dependências
         uses: npm install
       
 
