@@ -9,9 +9,10 @@
   "author": "Andreas Engel",
   "license": "ISC",
   "dependencies": {
-    "@badeball/cypress-cucumber-preprocessor": "^19.1.1",
+    "@badeball/cypress-cucumber-preprocessor": "^19.2.0",
     "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0",
-    "cypress": "^13.6.0"
+    "cypress": "^13.6.0",
+    "node": "^21.2.0"
   },
   "devDependencies": {
     "@faker-js/faker": "^8.3.1",
